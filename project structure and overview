@@ -1,0 +1,34 @@
+business-insights-assistant/
+│
+├── src/
+│   ├── ai_engine/
+│   │   ├── query_preprocessor.py
+│   │   ├── prompt_engineering.py
+│   │   └── response_generator.py
+│   │
+│   ├── integrations/
+│   │   └── gemini_api.py
+│   │
+│   ├── utils/
+│   │   ├── data_preprocessing.py
+│   │   └── metrics_evaluator.py
+│   │
+│   └── frontend/
+│       ├── cli_interface.py
+│       └── web_app.py
+│
+├── tests/
+│   ├── test_query_engine.py
+│   ├── test_prompt_engineering.py
+│   └── test_response_generation.py
+│
+├── requirements.txt
+├── README.md
+└── main.py
+Key Components
+
+AI Query Engine
+Google Gemini Integration
+Prompt Engineering Module
+Response Generation System
+Evaluation Metrics Tracker
